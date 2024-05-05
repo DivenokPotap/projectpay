@@ -77,17 +77,21 @@ li{
 }
 .btn:hover{
     font-size: 26px;
-    transition: font-size ease-in-out .2s;
-    will-change: auto;   
+    transition: font-size ease-in-out .5s;
+    will-change: auto;
+    color: black;   
+}
+.button:hover{
+    background-color: burlywood;
 }
 .btn2:hover{
     font-size: 24px;
-    transition: font-size ease-in-out .2s;
+    transition: font-size ease-in-out .5s;
     will-change: auto;   
 }
 .brn2:hover{
     font-size: 34px;
-    transition: font-size ease-in-out .2s;
+    transition: font-size ease-in-out .5s;
     will-change: auto;   
 }
 .btn{
@@ -95,7 +99,10 @@ li{
     color: #FFFFFF;
     font-size: 24px;
     font-weight: 300;
-    text-align: center;    
+    text-align: center;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;         
 }
 .fl{
     width: 990px;
@@ -109,6 +116,7 @@ li{
     box-shadow:20px 20px 20px 20px #00000080;
 }
 input{
+    border-radius: 25px;
     width:300px;
     height:80px;
     background-color:#F5F5F5;
@@ -126,7 +134,7 @@ input{
     scale:95.3%
 }
 input::placeholder{
-    padding-left: 20px;
+    padding-left: 22px;
     font-family: "Inter", sans-serif;
     font-size:21px;
     font-weight:200;
@@ -136,4 +144,7 @@ input::placeholder{
 h1:hover{
 color: #C59A6D;
 cursor: pointer;
+}
+input:hover{
+    background-color: aliceblue;
 }
