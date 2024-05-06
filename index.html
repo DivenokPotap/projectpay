@@ -61,8 +61,11 @@ li{
     font-family: "Inter", sans-serif;
     font-size:48px;
     font-weight:200;
-    color: black; 
+    color: rgb(255, 255, 255); 
     margin-bottom: 25px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; 
 }
 .sec1-text p{
     font-family: "Inter", sans-serif;
@@ -119,8 +122,10 @@ li{
     width: 990px;
     height: 669px;
     border-radius: 50px;
-    background-color: white;
-    border: solid white;
+    background-image:url(images/360_F_252311651_j4j5znWatcpwsXDzjgPJ0M8DzKD0lkoK.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid aliceblue;
     padding-top: 94px;
     padding-left: 87px;
     left:225px;
@@ -135,6 +140,9 @@ input{
     border: none;
     margin-bottom: 15px;
     padding-left: 20px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;  
 }
 .pay{
     align-items: right;
@@ -142,7 +150,7 @@ input{
     flex-wrap: wrap;
 }
 .bread{
-    scale:95.3%
+    scale:95.3%;
 }
 input::placeholder{
     padding-left: 22px;
@@ -157,19 +165,8 @@ color: #C59A6D;
 cursor: pointer;
 }
 input:hover{
-    background-color: aliceblue;
-}
-input::placeholder{
-    padding-left: 22px;
-    font-family: "Inter", sans-serif;
-    font-size:21px;
-    font-weight:200;
-    color: black;
-    margin-top: 15px; 
-}
-h1:hover{
-color: #C59A6D;
-cursor: pointer;
+    background-color: rgba(192, 221, 247, 0.703);
+    color: #FFFFFF;
 }
 </style>
 <body>
